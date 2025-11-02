@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>视频介绍</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background-color: #f6f8fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 720px;
+            margin: 40px auto;
+            background: #fff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+            border-radius: 8px;
+            padding: 32px 24px;
+        }
+        h1 {
+            color: #222;
+            font-size: 2em;
+            margin-bottom: 18px;
+        }
+        .description {
+            color: #555;
+            font-size: 1.1em;
+            margin-bottom: 22px;
+        }
+        video {
+            width: 100%;
+            border-radius: 6px;
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>精彩视频介绍</h1>
+        <div class="description">
+            欢迎观看我们的精彩视频！通过这段视频，您将了解到相关主题的核心内容和亮点。请点击下方播放按钮开始观看。
+        </div>
+        <video controls poster="cover.jpg">
+            <source src="Video_1762044845300.mp4" type="video/mp4">
+            您的浏览器不支持视频播放。
+        </video>
+    </div>
+</body>
+</html>
